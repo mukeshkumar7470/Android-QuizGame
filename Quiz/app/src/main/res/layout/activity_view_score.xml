@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.ashishmac.quiz.ViewScore">
+    <ListView
+        android:id="@+id/lvHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnToPlay"
+            android:text="Play" />
+        <Button
+            android:id="@+id/btnToHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnToHomeOnClick"
+            android:layout_below="@+id/btnPlay"
+            android:text="Go To Home" />
+    </RelativeLayout>
+
+</RelativeLayout>

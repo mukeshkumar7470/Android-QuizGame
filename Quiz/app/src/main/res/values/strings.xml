@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="instruction">Welcome to “Test Your Android Knowledge” game. It is True/False Quiz game testing you knowledge on Android and Android Studio. \n\nTo Play the game click on “Play”. To see the leadership Board click on ”View High Score”. To add a Question click on “Add Question”.\n If you are one of the High scorer then you will be asked to save your Name and score in the leadership board.</string>
+</resources>
